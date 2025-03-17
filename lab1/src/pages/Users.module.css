@@ -1,0 +1,30 @@
+/* src/pages/Users.module.css */
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 2rem 0;
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 10px; 
+  justify-content: center;
+}
+
+.userCard {
+  background-color: #7d4504;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  color: bisque;
+  display: block;
+  text-align: center;
+}
+
+.userCard:hover {
+  background-color: beige;
+  color: #7d4504;
+}
+
+  
